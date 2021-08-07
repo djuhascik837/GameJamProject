@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Test
-  m_Shader: {fileID: -6465566751694194690, guid: 058175e33a6960842ab484942b0c3add,
+  m_Name: Blob
+  m_Shader: {fileID: -6465566751694194690, guid: 665ccf27c8a24504eb750a232991ec97,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
@@ -21,19 +21,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_D8E0DD5A:
-        m_Texture: {fileID: 2800000, guid: c248c048c9d504a4fb696a19b762f4e1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33a800511c90ba5418e7e54f35ff4eb2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2475B024: 0.003
-    - Vector1_28F151BC: 0
+    - Vector1_2475B024: 0.214
+    - Vector1_28F151BC: 0.492
     - Vector1_2B667BD: 0
-    - Vector1_32448998: 1
-    - Vector1_807FF47F: 4.4
-    - Vector1_94728515: 0.336
+    - Vector1_32448998: 0.3
+    - Vector1_807FF47F: 1.3
+    - Vector1_94728515: 0.43
     - Vector1_9E251CD: 0
     m_Colors:
-    - Color_26BDFA82: {r: 0.1698113, g: 0.1698113, b: 0.1698113, a: 1}
-    - Color_2F2BD1F7: {r: 0.3490566, g: 0.13665895, b: 0.13665895, a: 1}
-    - Color_7C9D442A: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - Color_F2B9C57D: {r: 0.21698111, g: 0.037869345, b: 0.037869345, a: 1}
+    - Color_26BDFA82: {r: 0.378471, g: 0.545125, b: 0.5943396, a: 1}
+    - Color_2F2BD1F7: {r: 0.07943217, g: 0.13529234, b: 0.14150941, a: 1}
+    - Color_7C9D442A: {r: 0.3207547, g: 0.29200783, b: 0.29200783, a: 1}
+    - Color_F2B9C57D: {r: 0.13082945, g: 0.1398932, b: 0.18867922, a: 1}
