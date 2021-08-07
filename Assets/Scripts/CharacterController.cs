@@ -8,6 +8,7 @@ public class CharacterController : MonoBehaviour
     float moveSpeed = 5f;
     public Rigidbody2D rigidbody2D;
     Vector3 forward, right;
+    public Animator animator;
 
     void Start() 
     {
@@ -15,7 +16,7 @@ public class CharacterController : MonoBehaviour
         forward.y = 0;
         forward = Vector3.Normalize(forward);
         //Creates a rotation for our right vector. Telling to rotate around x axis.
-        right = Quaternion.Euler(new Vector3(-90, 90, 0)) * forward;
+        right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
 
     }
     // Update is called once per frame
@@ -24,6 +25,9 @@ public class CharacterController : MonoBehaviour
         
         if (Input.anyKey) {
             Move();
+            animator.SetBool("isMoving", true);
+        } else {
+            animator.SetBool("isMoving", false);
         }
     }
 
