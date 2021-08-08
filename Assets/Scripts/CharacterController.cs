@@ -25,7 +25,6 @@ public class CharacterController : MonoBehaviour
         
         if (Input.anyKey) {
             Move();
-            animator.SetBool("isMoving", true);
         } else {
             animator.SetBool("isMoving", false);
         }
@@ -34,6 +33,8 @@ public class CharacterController : MonoBehaviour
     
     void Move() 
     {
+        
+        animator.SetBool("isMoving", true);
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0 , Input.GetAxis("Vertical"));
         Vector3 rightMovement = right * moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal");
         Vector3 upMovement = forward * moveSpeed * Time.deltaTime * Input.GetAxis("Vertical");
