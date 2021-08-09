@@ -26,9 +26,9 @@ MonoBehaviour:
   m_Name: ToonOutlineRenderer
   m_EditorClassIdentifier: 
   m_RendererFeatures:
-  - {fileID: 5825306340766729180}
   - {fileID: -531755098328287356}
-  m_RendererFeatureMap: dc433bcd40a5d75084b7a3308ed39ef8
+  - {fileID: 5825306340766729180}
+  m_RendererFeatureMap: 84b7a3308ed39ef8dc433bcd40a5d750
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
